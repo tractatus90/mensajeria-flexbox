@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+.body {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 2px #1b1f21;
+    border-collapse: collapse;
+    
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items:space-evenly;
+    flex: 0 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.main .main-text {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main img {
+    height: 300px;
+    width: auto;
+}
+
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid 1px #bec1bb;
+    border-bottom: solid 1px #bec1bb;
+    border-collapse: collapse;
+    gap:1em;
+    line-height: 0.25em;
+    padding-left: 1em;
+}
+
+.contact img {
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+}
+
+.active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+    padding-left: 1em;
+    line-height: 0.25em;
+
+}
+
+.status p {
+    color: #bec1bb;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-right: 1em;
+}
+.button {
+    height: 150px;
+    border-top: solid 1px #bec1bb; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.button button{
+    background-color: #a491d2;
+    padding: 1em 3em 1em 3em;
+    border: #a491d2;
+    color: white;
+}
